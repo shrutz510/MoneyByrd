@@ -157,26 +157,11 @@ If the frontend can't connect to the backend:
 2. Check the API URL in the frontend code (App.js)
 3. Ensure there are no CORS issues by checking browser console errors
 
-## Development Notes
+## Potential Updates
 
-### Adding New Features
-
-1. Update the database schema if necessary
-2. Add new API endpoints in the appropriate route files
-3. Update frontend components to utilize the new functionality
-4. Add validation for any new fields/features
-
-### Code Style
-
-- Use camelCase for variable and function names
-- Use PascalCase for component names
-- Add comments for complex logic
-- Maintain consistent indentation and formatting
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Add owner information for adopted pets
+2. Provide an option to display pet images
 
 ## Contributors
 
-- [Your Name] - Initial development
+- Shruti Wagle - Initial development
