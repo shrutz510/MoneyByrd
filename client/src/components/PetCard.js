@@ -2,11 +2,6 @@
 import React from "react";
 
 function PetCard({ pet, handleUpdatePet, handleDeletePet }) {
-  const getStatusBadgeClass = (status) => {
-    if (status === "Available for Adoption") return "badge-available";
-    if (status.includes("Adopted")) return "badge-adopted";
-    return "badge-care";
-  };
 
   const getPriorityClass = (priority) => {
     if (priority === "Low") return "priority-low";
